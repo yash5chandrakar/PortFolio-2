@@ -1,0 +1,100 @@
+.contactOuterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.outerHeading {
+    color: white;
+    margin: 3%;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.outerHeading hr {
+    width: 100%;
+    height: 5px;
+    border-radius: 15px;
+    background-color: gold;
+}
+
+.contactInnerDiv {
+    height: 70vh;
+    width: 85%;
+    margin: 1% 3% 4% 3%;
+    display: flex;
+}
+
+.contactLeft {
+    height: 100%;
+    width: 80%;
+    background: linear-gradient(to bottom, whitesmoke 10%, rgb(244, 204, 152));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.contactRight {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(248, 222, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to bottom, whitesmoke 10%, rgb(244, 204, 152));
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.contactLeft p {
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 4px 4px 4px white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.contactLeft a {
+    text-decoration: none;
+    color: rgb(230, 197, 7);
+}
+
+.contactLeft span {
+    font-size: 32px;
+    color: rgb(230, 197, 7);
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 2px;
+}
+
+.contactItem {
+    width: 60%;
+    height: 25%;
+    text-align: center;
+}
+
+.contactItem:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.contactItem a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.contactItem img {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}

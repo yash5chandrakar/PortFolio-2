@@ -1,0 +1,79 @@
+.homeInner {
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+}
+
+.homeLeft {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+    text-shadow: 2px 2px 2px black;
+}
+
+.homeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.homeName {
+    font-size: 45px;
+    max-height: 20%;
+
+}
+
+.homeLeft div {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.homeLeft div a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    background-color: rgb(103, 60, 103);
+    padding: 15px;
+    border-radius: 35px;
+}
+
+.homeName span {
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.homeName span:hover {
+    font-size: 80px;
+    color: orange;
+    text-shadow: 5px 5px 5px gray;
+    transition: 0.5s;
+}
+
+.homeRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.homeRight img {
+    width: 60%;
+    border: 8px solid lightgray;
+    border-radius: 25px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.homeRight img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.techStacks {
+    font-size: 35px;
+}
