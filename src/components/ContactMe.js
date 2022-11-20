@@ -11,19 +11,19 @@ const ContactMe = () => {
             id: 1,
             name: "LinkedIn",
             link: "https://linkedin.com/in/yash-chandrakar",
-            image: github
+            image: LinkedIn
         },
         {
             id: 2,
             name: "Github",
             link: "https://github.com/yash5chandrakar",
-            image: Leetcode
+            image: github
         },
         {
             id: 3,
             name: "Leetcode",
             link: "https://leetcode.com/yash5chandrakar/",
-            image: LinkedIn
+            image: Leetcode
         }
     ]
 
