@@ -7,16 +7,19 @@
 
 .outerDiv {
   display: flex;
+  width: 100vw;
+  min-width: 10vw;
 }
 
 
 .navigation {
   width: 10%;
+  min-width: 100px;
   height: 100vh;
   position: fixed;
   background-color: black;
   color: white;
-  font-size: 120%;
+  font-size: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,9 +50,10 @@
 
 .rightContent {
   width: 100%;
-  padding: 10px;
+  padding-left: 10%;
+  /* padding: 10px; */
   /* height: 200vh; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
   background-color: rgb(23, 23, 23);
   /* background: linear-gradient(rgb(184, 182, 182), rgb(80, 79, 79)) */
 }

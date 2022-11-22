@@ -1,10 +1,12 @@
 .homeInner {
     display: flex;
     font-family: 'Kanit', sans-serif;
+    font-size: 1.3vw;
 }
 
 .homeLeft {
     width: 50%;
+    min-width: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,13 +22,14 @@
 }
 
 .homeName {
-    font-size: 45px;
+    /* font-size: 80%; */
+    /* font-size: 45px; */
     max-height: 20%;
-
 }
 
 .homeLeft div {
-    font-size: 25px;
+    /* font-size: 80%; */
+    /* font-size: 25px; */
     padding: 15px;
 }
 
@@ -40,19 +43,20 @@
 }
 
 .homeName span {
-    font-size: 50px;
+    font-size: 4.5vw;
+    /* font-size: 100%; */
     letter-spacing: 5px;
     cursor: pointer;
     max-height: 50px;
 }
 
 .homeName span:hover {
-    font-size: 60px;
+    /* font-size: 60px; */
     color: orange;
     text-shadow: 5px 5px 5px gray;
     transition: 0.5s;
     text-align: center;
-    animation: bounce .4s ease infinite alternate;
+    animation: bounce .5s ease infinite alternate;
 }
 
 @keyframes bounce {
@@ -80,6 +84,7 @@
 
 .homeRight img {
     width: 50%;
+    min-width: 150px;
     border: 8px solid lightgray;
     border-radius: 50%;
     margin: 20px;
@@ -92,5 +97,5 @@
 }
 
 .techStacks {
-    font-size: 35px;
+    font-size: 2.0vw;
 }

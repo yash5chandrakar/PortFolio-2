@@ -57,8 +57,9 @@
 .contactLeft p {
     font-family: 'Kanit', sans-serif;
     text-shadow: 4px 4px 4px white;
-    font-size: 25px;
+    /* font-size: 25px; */
     font-weight: 600;
+    font-size: 1.7vw;
     padding: 20px;
 }
 
@@ -68,7 +69,8 @@
 }
 
 .contactLeft span {
-    font-size: 32px;
+    font-size: 2.3vw;
+    /* font-size: 32px; */
     color: rgb(230, 197, 7);
     text-shadow: 2px 2px 2px black;
     letter-spacing: 2px;
@@ -87,14 +89,15 @@
 
 .contactItem a {
     text-decoration: none;
-    color: black;
-    font-size: 18px;
+    color: rgb(230, 197, 7);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.5vw;
     font-weight: 600;
     font-family: cursive;
 }
 
 .contactItem img {
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 40%;
     border-radius: 50%;
 }
