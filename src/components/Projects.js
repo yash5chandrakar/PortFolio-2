@@ -22,17 +22,17 @@ const Projects = () => {
         },
         {
             id: 3,
-            name: "Todo-Grid",
+            name: "Happy Posts",
             stack: "React",
-            link: "https://sparkling-fenglisu-0431f1.netlify.app/",
-            image: "https://i.imgur.com/WEORFzT.png"
+            link: "https://bespoke-lolly-b88aa3.netlify.app/",
+            image: "https://i.imgur.com/uoFkCbD.png"
         },
         {
             id: 4,
-            name: "Feynmans Board",
+            name: "Spin-The-Wheel",
             stack: "React",
-            link: "https://verdant-cactus-8d0563.netlify.app/",
-            image: "https://i.imgur.com/VBabs4R.png"
+            link: "https://classy-hamster-17049b.netlify.app/",
+            image: "https://i.imgur.com/mWGd7uY.png"
         },
         {
             id: 5,
@@ -75,7 +75,21 @@ const Projects = () => {
             stack: "JS",
             link: "https://yash5chandrakar.github.io/Various-Cool-Minor-Projects/univ.html",
             image: "https://i.imgur.com/Z5TEaqA.png"
-        }
+        },
+        {
+            id: 11,
+            name: "Todo-Grid",
+            stack: "React",
+            link: "https://sparkling-fenglisu-0431f1.netlify.app/",
+            image: "https://i.imgur.com/WEORFzT.png"
+        },
+        {
+            id: 12,
+            name: "Feynmans Board",
+            stack: "React",
+            link: "https://verdant-cactus-8d0563.netlify.app/",
+            image: "https://i.imgur.com/VBabs4R.png"
+        },
     ]
 
 
