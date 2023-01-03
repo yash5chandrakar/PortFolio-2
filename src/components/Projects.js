@@ -21,11 +21,11 @@ const Projects = () => {
 
         },
         {
-            id: 2,
-            name: "Binge Manual",
+            id: 69,
+            name: "Decision Maker",
             stack: "React",
-            link: "https://dashing-seahorse-d8c84b.netlify.app/",
-            image: "https://i.imgur.com/BLJ9k7X.png"
+            link: "https://beautiful-banoffee-821049.netlify.app/",
+            image: "https://i.imgur.com/dmR7Wk0.png"
         },
         {
             id: 12,
@@ -40,6 +40,13 @@ const Projects = () => {
             stack: "React",
             link: "https://classy-hamster-17049b.netlify.app/",
             image: "https://i.imgur.com/mWGd7uY.png"
+        },
+        {
+            id: 2,
+            name: "Binge Manual",
+            stack: "React",
+            link: "https://dashing-seahorse-d8c84b.netlify.app/",
+            image: "https://i.imgur.com/BLJ9k7X.png"
         },
         {
             id: 11,
